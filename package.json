@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@iconify-json/ic": "^1.1.8",
+    "axios": "^0.27.2",
     "vitepress": "1.0.0-alpha.4",
     "vitepress-theme-demoblock": "^1.4.2"
   }
