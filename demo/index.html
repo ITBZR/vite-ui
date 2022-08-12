@@ -1,0 +1,32 @@
+<!--
+ * @Descripttion: 
+ * @Author: BZR
+ * @Date: 2022-08-11 18:17:17
+ * @LastEditTime: 2022-08-12 09:03:09
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Demo</h1>
+    <div id="app"></div>
+    <script type="module">
+        import { createApp } from "vue/dist/vue.esm-bundler.js";
+        import ZzsUI, { ZButton } from "../dist/zzs-ui.mjs";
+
+        createApp({
+            template: `
+                <ZButton/>
+        `}).use(ZzsUI).mount('#app')
+
+    </script>
+</body>
+
+</html>
