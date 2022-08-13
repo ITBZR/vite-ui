@@ -75,7 +75,7 @@ export default defineComponent({
                         `}
                     >
                         {props.icon ? ( <i class={`i-ic-baseline-${props.icon} p-3`}></i> ) : ("")}
-                        {slots.default ? slots.default() : ""}
+                        {slots.default ? slots.default() : "Button"}
                 </button>
         }
     }
