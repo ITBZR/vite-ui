@@ -6,7 +6,7 @@
 -->
 <template>
   <div>
-    <ZButton>普通按钮</ZButton>
+    <ZButton>默认按钮</ZButton>
     <ZButton color="red">普通按钮</ZButton>
     <ZButton color="red" round plain icon="message">普通按钮</ZButton>
     <ZButton color="pink" icon="search">普通按钮</ZButton>
