@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "test": "vitest",
+    "test": "vitest run",
     "docs:dev": "vitepress dev docs --config ../vite.config.ts",
     "docs:build": "vitepress build docs --config ../vite.config.ts",
     "docs:serve": "vitepress serve docs --config ../vite.config.ts",
