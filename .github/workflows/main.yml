@@ -7,6 +7,7 @@ on:
 jobs:
   Lint:
     # Lint任务
+    runs-on: ubuntu-latest
   UnitTest:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
