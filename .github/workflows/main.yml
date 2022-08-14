@@ -1,11 +1,11 @@
-name: CI
+name: CIS
 on:
-  push:
+  push: 
     branches: [ main ]
   pull_request:
     branches: [ main ]
 jobs:
   Lint:
-    # Lint任务
-  UnitTest:
-    # 单元测试任务 
+  # lint任务
+UnitTest:
+  # 单元测试任务
