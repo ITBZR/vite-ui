@@ -1,3 +1,9 @@
+/*
+ * @Descripttion: 检查
+ * @Author: BZR
+ * @Date: 2022-08-15 09:23:40
+ * @LastEditTime: 2022-08-15 09:53:30
+ */
 module.exports = {
   root: true,
   env: {
