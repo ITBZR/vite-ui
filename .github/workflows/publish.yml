@@ -22,8 +22,10 @@ jobs:
       - name: Build
         run: npm run build
       - name: "Publish to the npm registry"
-        run: npm publish || true
+        uses: primer/publish@3.0.0
         env:
+          GITHUB_TOKEN: ${{ secrets.GIT_AUTO_TOKEN }}
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTO_TOKEN }} # 跟前面步骤中的 NPM_AUTH_TOKEN 保持一致
         with:
           default_branch: "publish"
+          dir: "./"
