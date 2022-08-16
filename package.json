@@ -4,13 +4,22 @@
   "description": "一个基于vite的组件库模板",
   "main": "dist/zzs-ui.umd.js",
   "module": "dist/zzs-ui.mjs",
-  "keywords": ["组件库", "vite", "vue3", "jsx", "typescript"],
+  "keywords": [
+    "组件库",
+    "vite",
+    "vue3",
+    "jsx",
+    "typescript"
+  ],
   "author": "007",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "license": "ISC",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:component": "ts-node ./scripts/build.ts",
     "test": "vitest run",
     "docs:dev": "vitepress dev docs --config ../vite.config.ts",
     "docs:build": "vitepress build docs --config ../vite.config.ts",
