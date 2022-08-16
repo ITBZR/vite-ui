@@ -1,4 +1,10 @@
-import Button from '../index';
+/*
+ * @Descripttion:
+ * @Author: BZR
+ * @Date: 2022-08-15 09:23:40
+ * @LastEditTime: 2022-08-16 11:36:00
+ */
+import Button from '../Button';
 import { shallowMount } from '@vue/test-utils';
 import { describe, expect, test } from 'vitest';
 
