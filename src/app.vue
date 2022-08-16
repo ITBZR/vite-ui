@@ -2,7 +2,7 @@
  * @Descripttion: 
  * @Author: BZR
  * @Date: 2022-08-12 09:15:06
- * @LastEditTime: 2022-08-15 11:06:53
+ * @LastEditTime: 2022-08-16 09:34:50
 -->
 <template>
   <div>
@@ -15,7 +15,7 @@
 </template>
 
 <script setup lang="ts">
-import { ZButton } from "./entry";
+import { ZButton } from './entry';
 </script>
 
 <style scoped></style>
