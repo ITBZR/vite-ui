@@ -1,47 +1,47 @@
-import Button from "../index";
-import { shallowMount } from "@vue/test-utils";
-import { describe, expect, test } from "vitest";
+import Button from '../index';
+import { shallowMount } from '@vue/test-utils';
+import { describe, expect, test } from 'vitest';
 
-describe("Button", () => {
-  test("mount @vue/test-utils", () => {
+describe('Button', () => {
+  test('mount @vue/test-utils', () => {
     const wrapper = shallowMount(Button, {
       slots: {
-        default: "Button",
+        default: 'Button',
       },
     });
     // 断言
-    expect(wrapper.text()).toBe("Button");
+    expect(wrapper.text()).toBe('Button');
   });
 });
 
-describe("color", () => {
-  test("default", () => {
+describe('color', () => {
+  test('default', () => {
     const wrapper = shallowMount(Button, {
       slots: {
-        default: "Button",
+        default: 'Button',
       },
     });
     expect(
       wrapper
         .classes()
-        .map((v) => v.replace(/\r|\n/gi, ""))
-        .includes("bg-blue-500")
+        .map(v => v.replace(/\r|\n/gi, ''))
+        .includes('bg-blue-500'),
     ).toBe(true);
   });
-  test("red", () => {
+  test('red', () => {
     const wrapper = shallowMount(Button, {
       slots: {
-        default: "Button",
+        default: 'Button',
       },
       props: {
-        color: "red",
+        color: 'red',
       },
     });
     expect(
       wrapper
         .classes()
-        .map((v) => v.replace(/\r|\n/gi, ""))
-        .includes("bg-red-500")
+        .map(v => v.replace(/\r|\n/gi, ''))
+        .includes('bg-red-500'),
     ).toBe(true);
   });
 });
